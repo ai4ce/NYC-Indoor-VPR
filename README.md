@@ -4,8 +4,9 @@ Diwei Sheng, Anbang Yang, John-Ross Rizzo, Chen Feng
 
 <p align="center">
 <img src="./teaser/dataset_vis.jpg" width="100%"/>
-<p align="center">SSCBench-KITTI-360</p>
+<p align="center">Dataset</p>
 <img src="./teaser/label_pipeline_ex.png" width="100%"/>
+<p align="center">Semi-auto annotation method</p>
 </div>
 
 ## News
