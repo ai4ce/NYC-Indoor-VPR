@@ -9,7 +9,7 @@
         <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
 
 
-        <title>NYU-VPR Dataset</title>
+        <title>NYU-Indoor-VPR Dataset</title>
         <link href="style.css" rel='stylesheet' type='text/css'>
         <script src="scripts.js"></script>
     </head>
@@ -35,9 +35,9 @@
         <div class="head_container">
             <header class="main_header">
                 <div class="box">
-                    <div class="title">NYU-VPR Dataset Website</div>
+                    <div class="title">NYU-Indoor-VPR Dataset Website</div>
                     <hr class="line">
-                    <div class="description">This is the official website for paper <a href="https://arxiv.org/abs/2110.09004">NYU-VPR</a></div>
+                    <div class="description">This is the official website for paper NYU-Indoor-VPR</a></div>
                 </div>
             </header>
         </div>
@@ -46,40 +46,30 @@
             <div class="content">
                 <h1>Introduction</h1>
                 <hr class="horizontalLine">
-                <p>Our dataset is named NYU-VPR. It is composed of images recorded in Manhattan, New York from April 2016 to March 2017. The images were recorded by cameras installed on the front, back, and side parts of taxis with auto-exposure. The dataset contains both side-view images and front-view images. There are 100,500 side-view and 101,290 front-view images, each with a 640x480 resolution. On the basis of raw images, we use <a href="https://github.com/mseg-dataset/mseg-api" target="_blank" style="text-decoration: none; color: rgb(190, 80, 190);">MSeg</a>, a semantic segmentation method, to replace moving objects such as people and cars with white pixels. Fig. 1 compares anonymized and raw images.</p>
+                <p>Our dataset is named NYU-Indoor-VPR. It is composed of images recorded in New York City from April 2022 to April 2023. Footage was captured using hand-held Insta360 one x2 spherical cameras,  generating videos with a resolution of 1920x960. On the basis of raw images, we use <a href="https://github.com/mseg-dataset/mseg-api" target="_blank" style="text-decoration: none; color: rgb(190, 80, 190);">MSeg</a>, a semantic segmentation method, to replace moving objects such as people and cars with white pixels. Fig. 1 compares anonymized and raw images.</p>
 
                 <div>
                     <img class="imgs" src="imgs/non_anony.jpg" alt="non_anony">
                     <figcaption>Fig. 1 - Illustration of raw images and anonymized images</figcaption>
                 </div>
 
-                <p>The images were recorded on streets around Washington Square Park. The trajectories of the locations where the images were recorded are shown in Fig. 2. Since the cameras were placed on fleet cars, and their routes were random, the frequencies of locations where the images were taken are different. The frequencies of the locations where the side-view and front-view images were recorded are shown in Fig. 3 and Fig. 4 respectively.</p>
+                <p> We recorded images of 13 different floors/scenes within the six buildings. We chose buildings with varied utilities and appearances: the Oculus, New York University Silver Center for Arts and Science, Elmer Holmes Bobst Library, Morton Williams Supermarket, and Metropolitan Museum of Art. These settings represent a broad range of indoor spaces, including shopping malls, teaching buildings, libraries, supermarkets, and museums. Fig. 2 shows the trajectories and example images of certain scenes.</p>
 
-                <div class="imgs">
-                    <div class="one-third">
-                        <img src="imgs/all_mark.jpg" alt="trajectories">
-                        <figcaption>Fig. 2</figcaption>
-                    </div>
-                    <div class="one-third">
-                        <img src="imgs/freq_front.jpg" alt="freq_front">
-                        <figcaption>Fig. 3</figcaption>
-                    </div>
-                    <div class="one-third">
-                        <img src="imgs/freq_side.jpg" alt="freq_side">
-                        <figcaption>Fig. 4</figcaption>
-                    </div>
+                <div>
+                    <img class="imgs" src="imgs/data_vis.jpg" alt="data_vis">
+                    <figcaption>Fig. 2 - Trajectories annotated by our semi-automatic method and example images of 12 scenes in NYC-Indoor-VPR.</figcaption>
                 </div>
 
-                <p>Fig. 5 shows the time distribution. Since it contains images captured from May 2016 to March 2017, our dataset includes all four seasons. Therefore, it contains various changes of weather, illumination, vegetation, and road construction. As shown in Fig. 6, we can see image changes at the same location as the season changes.</p>
+                <p>For each building, we selected one or multiple floors as scenes. For each scene, we fixed the trajectory and captured videos along the same route at different times throughout the year. Fig. 3 shows the time distribution of visits. The videos were recorded from April to July 2022 and from March to April 2023. Therefore, it contains various changes in illumination and appearance. As shown in Fig. 4, we can see image changes at the same location over a year.</p>
 
                 <div class="imgs">
                     <div class="half">
-                        <img src="imgs/time_distribution.jpg" alt="time_distribution">
-                        <figcaption>Fig. 5</figcaption>
+                        <img src="imgs/challenge_case.png" alt="challenge_case">
+                        <figcaption>Fig. 3</figcaption>
                     </div>
                     <div class="half">
-                        <img src="imgs/different_time.jpg" alt="different_time">
-                        <figcaption>Fig. 6</figcaption>
+                        <img src="imgs/time_freq.jpg" alt="time_freq">
+                        <figcaption>Fig. 4</figcaption>
                     </div>
                 </div>
 
