@@ -68,7 +68,7 @@
                         <figcaption>Fig. 3</figcaption>
                     </div>
                     <div class="half">
-                        <img src="imgs/time_freq.jpg" alt="time_freq">
+                        <img src="imgs/time_freq.png" alt="time_freq">
                         <figcaption>Fig. 4</figcaption>
                     </div>
                 </div>
@@ -95,10 +95,8 @@
                             <div>
                                 <div class="tabBg">
                                     <h2>01</h2>
-                                    <h3>Difficulty Level</h3>
-                                    <p>
-                                        We assign each side-view query image a difficulty level of easy, medium, or hard. First, we extract SIFT features for each image. Then for each query image, we find the top-8 closest side-view training images by GPS coordinates. The query image and its top-8 closest images form eight image pairs. We use RANSAC to compute a fundamental matrix and the number of inliers for each pair of images. We use three intervals to measure the difficulty level of matching each pair based on each pair's number of inliers points: 0-19 (hard), 20-80 (medium), >80 (easy). The interval values are determined by artificially viewing the image pairs and checking the similarity of the image pairs. The difficulty level of each side-view query image is the most common difficulty level of its eight pairs.
-                                    </p>
+                                    <h3>Dataset Detail</h3>
+                                    <img src="imgs/dataset_detail.jpg" alt="dataset_detail">
                                 </div>
                             </div>
                         </div>
@@ -111,14 +109,14 @@
                                     <h2>02</h2>
                                     <h3>Uniqueness</h3>
                                     <p>
-                                        Our dataset is unique in two ways. First, comparing to front-view images where sky and road surfaces occupy large areas, side-view images focus on street views such as shop signs and metro entrances. Second, we include image anonymization to protect the privacy of pedestrians and cars. In the meantime, anonymized images provide VPR algorithms static and environment-only information, getting rid of moving objects and pedestrians.
+                                        Our dataset stands out in two ways. First, NYC-Indoor-VPR images were captured in buildings such as The Oculus and the Bobst Library, which typically have a large flow of pedestrians. We anonymized these pedestrians in the images to reduce their exposure to personally identifiable information. These anonymized images not only enhance data privacy but also allow VPR algorithms to focus more on invariant or environmental features rather than transient features, such as moving people. Second, NYC-Indoor-VPR spans a year and includes images captured in buildings that undergo significant visual changes over time. For instance, goods in the supermarket vary and storefronts in the shopping mall are subject to change. This variability in the dataset allows us to test the performance of the VPR algorithms with fewer invariant features in the images.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div id="desp3" class="despTab">
+                    <!-- <div id="desp3" class="despTab">
                         <div class="despContainer">
                             <div>
                                 <div class="tabBg">
@@ -155,7 +153,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
