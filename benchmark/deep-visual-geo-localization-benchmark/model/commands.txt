@@ -1,0 +1,1 @@
+ python train.py --dataset_name=nyu-vpr --datasets_folder=/scratch/ds5725/VPR-datasets-downloader/datasets --backbone=cct384 --trunc_te=8 --freeze_te 1

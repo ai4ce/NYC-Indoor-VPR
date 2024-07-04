@@ -1,0 +1,4 @@
+python train.py --dataset_name=compressed_vid --datasets_folder=/scratch/ds5725/VPR-datasets-downloader/datasets --resume=/scratch/ds5725/deep-visual-geo-localization-benchmark/logs/default/2023-04-22_19-42-06/best_model.pth
+python train.py --dataset_name=indoor --datasets_folder=/mnt/data/nyc_indoor --backbone=resnet50conv4
+
+python train.py --dataset_name=nyu-vpr --datasets_folder=/scratch/ds5725/VPR-datasets-downloader/datasets --backbone=
