@@ -10,3 +10,8 @@ Code in this is folder is originally from Deep Visual Geo-localization Benchmark
     year      = {2022},
 }
 ```
+
+# Create Environment
+```bash
+conda create --name bench python=3.7
+```
