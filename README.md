@@ -1,4 +1,4 @@
-# NYC-Indoor
+# NYC-Indoor-VPR
 
 Diwei Sheng, Anbang Yang, John-Ross Rizzo, Chen Feng
 
@@ -9,6 +9,7 @@ Diwei Sheng, Anbang Yang, John-Ross Rizzo, Chen Feng
 <p align="center">Semi-auto annotation method</p>
 </div>
 
+[Paper on arXiv](https://arxiv.org/pdf/2404.00504)
 ## News
 - [2023/06]: We release **NYC-Indoor** for academic usage.
 - [2023/06]: NYC-Indoor is submitted to **NeurIPS 2023 Track on Datasets and Benchmarks**.
