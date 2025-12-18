@@ -13,15 +13,15 @@ from typing import Literal, Union, List
 
 
 # %%
-# List of downloads (for testing and data)
-od_down_links = {
-    # VLAD cache (vocabularies)
-    "cache": "https://iiitaphyd-my.sharepoint.com/:u:/g/personal/avneesh_mishra_research_iiit_ac_in/EW-ZqUeWWexNhbLEQvsCk2wBeucxNlhEpsfeUHHOreyLag",
-    # Images zip for testing (official)
-    "test_imgs": "https://www.robots.ox.ac.uk/~mobile/IJRR_2008_Dataset/Data/CityCentre/Images.zip",
-    # Images zip for testing (mirror on personal OneDrive)
-    "test_imgs_od": "https://iiitaphyd-my.sharepoint.com/:u:/g/personal/avneesh_mishra_research_iiit_ac_in/EUnym1SWsrNIuOvwAdwMLgMBBxt3rgoy9zi98LanjA8wmA?e=4bNLUo"
-}
+# List of outdated download links (not used anymore)
+# od_down_links = {
+#     # VLAD cache (vocabularies)
+#     "cache": "https://iiitaphyd-my.sharepoint.com/:u:/g/personal/avneesh_mishra_research_iiit_ac_in/EW-ZqUeWWexNhbLEQvsCk2wBeucxNlhEpsfeUHHOreyLag",
+#     # Images zip for testing (official)
+#     "test_imgs": "https://www.robots.ox.ac.uk/~mobile/IJRR_2008_Dataset/Data/CityCentre/Images.zip",
+#     # Images zip for testing (mirror on personal OneDrive)
+#     "test_imgs_od": "https://iiitaphyd-my.sharepoint.com/:u:/g/personal/avneesh_mishra_research_iiit_ac_in/EUnym1SWsrNIuOvwAdwMLgMBBxt3rgoy9zi98LanjA8wmA?e=4bNLUo"
+# }
 
 
 # %%
